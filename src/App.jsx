@@ -11,17 +11,17 @@ const App = () => {
 
   const navigate = useNavigate();
 
-  useEffect(()=> {
-    onAuthStateChanged(auth, async (user) => {
+   useEffect(() => {
+    onAuthStateChanged(auth, (user) => {
       if (user) {
-        toast.log("Logged In");
+        toast.success("Logged In");
         navigate('/');
-      }else{
-        toast.log("Logged Out");
+      } else {
+        toast.info("Logged Out");
         navigate('/login');
       }
-    })
-  },[])
+    });
+  }, []);
 
 
   return (
