@@ -1,12 +1,70 @@
-# React + Vite
+# Netflix-C 🎬
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean and responsive **Netflix UI Clone** built using **React**, **Tailwind CSS**, and **TMDB API** for movie data. Hosted on **Vercel**.
 
-Currently, two official plugins are available:
+> Live Demo: [netflix-c-gamma.vercel.app](https://netflix-c-gamma.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🔥 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🚀 Built with React JS and Tailwind CSS
+- 🎥 Fetches real movie data using TMDB API
+- 🎞️ Movie categories like Trending, Top Rated, Originals, etc.
+- 🔍 Search bar functionality
+- 📱 Fully responsive design
+
+---
+
+## 📸 Screenshots
+
+### Sign Up
+![Sign up](./screenshots/sign_up.png)
+
+### Sign In
+![Sign in](./screenshots/sign_in.png)
+
+### Home Page
+![Home](./screenshots/home.png)
+
+### Movies Effect
+![Movies](./screenshots/cards.png)
+
+### Home Page
+![Footer](./screenshots/footer.png)
+
+---
+
+📬 Contact
+Feel free to reach out:
+
+📧 yparshant610@gmail.com
+
+🐦 @yparshant610
+
+📸 Instagram
+
+---
+
+## 🛠️ Tech Stack
+
+- React + Vite
+- Tailwind CSS
+- TMDB API
+- Vercel (Deployment)
+
+---
+
+## 🚧 Installation & Setup
+
+```bash
+# Clone the repo
+git clone https://github.com/yparshant610/netflix-c.git
+cd netflix-c
+
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev
+
