@@ -9,10 +9,18 @@ const Footer = () => {
   return (
     <div className='footer'>
         <div className="footer-icons">
-          <img src={youtube_icon} alt="" />
-          <img src={instagram_icon} alt="" />
-          <img src={twitter_icon} alt="" />
-          <img src={facebook_icon} alt="" />
+          <a href="https://www.youtube.com/@41_parshantyadav59" target="_blank">
+            <img src={youtube_icon} alt="" />
+          </a>
+          <a href="https://www.instagram.com/pras_hant610?igsh=M2ozbGdzaWJ6NDV4" target="_blank">
+            <img src={instagram_icon} alt="" />
+          </a>
+          <a href="https://x.com/Parshant4169569?s=09" target="_blank">
+            <img src={twitter_icon} alt="" />
+          </a>
+          <a href="https://www.facebook.com/share/1G3LqABCX9/" target="_blank">
+            <img src={facebook_icon} alt="" />
+          </a>
         </div>
         <ul>
           <li>Audio Description</li>
