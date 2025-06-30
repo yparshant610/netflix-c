@@ -5,7 +5,7 @@ import Login from './pages/Login/Login';
 import Player from './pages/Player/Player';
 import { onAuthStateChanged } from 'firebase/auth';
 import { auth } from './firebase';
-import Search from './pages/Search/search';
+import Search from './pages/Search/Search';
 import { ToastContainer, toast } from 'react-toastify';
 import Category from './pages/Category/Category';
 
